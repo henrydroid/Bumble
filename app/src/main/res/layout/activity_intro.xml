@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intro">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_marginTop="68dp"
+        android:layout_gravity="center"
+        android:layout_height="226dp"
+        app:srcCompat="@drawable/amiel"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="I don't mind spendin' everyday            Out on your corner in the pourin' rain   Look for the girl with the broken smile Ask her if she wants to stay awhile"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:fontFamily="cursive"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+</LinearLayout>

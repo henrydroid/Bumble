@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItsYou">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/you"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="It's you, it's always you"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="If I'm ever gonna fall in love"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" I know it's gonna be you"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" It's you, it's always you"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" Met a lot of people but,"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  nobody feels like you"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            app:fontFamily="cursive" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
